@@ -16,4 +16,4 @@ jobs:
         cd formatter_lib/
         cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install
         cmake --build _build
-
+        ls _build
