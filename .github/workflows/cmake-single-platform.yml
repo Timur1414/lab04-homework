@@ -10,6 +10,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with: 
+        source-dir: .
+        build-dir: ./builds
 
     - name: Build formatter lib
       run: |
