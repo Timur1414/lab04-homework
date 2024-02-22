@@ -10,9 +10,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-      with: 
-        source-dir: formatter_lib
-        build-dir: formatter_lib/builds
 
     - name: Build formatter lib
       run: |
